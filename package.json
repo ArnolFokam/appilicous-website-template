@@ -1,0 +1,22 @@
+{
+  "name": "appilicious",
+  "version": "1.0.0",
+  "description": "A website mase with html css and css-sass",
+  "main": "none",
+  "scripts": {
+    "prefix": "postcss css/main.css --use=autoprefixer --output=css/main.css",
+    "minify": "postcss css/main.css --use=cssnano --output=css/main.css",
+    "build": " npm run sass && npm run prefix && npm run minify",
+    "sass": "sass  sass/main.scss css/main.css --no-source-map",
+    "watch": "sass --watch --poll sass/main.scss css/main.css --no-source-map",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arnol Fokam",
+  "license": "none",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^6.1.2",
+    "sass": "^1.20.1"
+  }
+}
