@@ -2,7 +2,7 @@
 An app website template made with HTML, CSS/SaSS and Javascript 
 
 This is the link to access the website below. :point_down:<br/>
-[https://arnolfokam.github.io/appilicous-website-template](https://arnolfokam.github.io/appilcious-website-template/) 
+[https://arnolfokam.github.io/appilicous-website-template](https://arnolfokam.github.io/appilicious-website-template/) 
 
 Be creative! :wink:
 
